@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="HangFire" Version="1.6.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChatServerWeb.Data\ChatServerWeb.Data.csproj" />
+    <ProjectReference Include="..\ChatServerWeb.Model\ChatServerWeb.Model.csproj" />
+    <ProjectReference Include="..\ChatServerWeb.SystemUtility\ChatServerWeb.SystemUtility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
